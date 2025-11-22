@@ -1,16 +1,38 @@
-# bmi
+# BMR Calculator App
 
-A new Flutter project.
+## Anggota Kelompok
+1. K3523001 - 'Azzam Tsabitul Jamil
+2. K3523051 - Muhammad Fahry Ali  
+3. K3523069 - Rosyid Hanafi Utomo
 
-## Getting Started
+## Deskripsi Aplikasi
+Aplikasi BMR Calculator adalah aplikasi mobile yang dibangun menggunakan Flutter untuk menghitung Basal Metabolic Rate (BMR) dan kebutuhan kalori harian berdasarkan tingkat aktivitas pengguna.
 
-This project is a starting point for a Flutter application.
+### Fitur Utama
+- Menghitung BMR berdasarkan jenis kelamin, tinggi badan, berat badan, dan usia
+- Menampilkan kebutuhan kalori harian untuk berbagai tingkat aktivitas
+- Antarmuka yang user-friendly dengan toggle jenis kelamin
+- Input yang mudah dengan tombol increment/decrement
 
-A few resources to get you started if this is your first Flutter project:
+### Teknologi yang Digunakan
+- Flutter SDK
+- Dart Programming Language
+- Material Design
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Screenshot Aplikasi
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Tampilan Kalkulator BMR
+![Calculator Screen](screenshots/calculator.png)
+
+### Tampilan Hasil BMR
+![Result Screen](screenshots/result.png)
+
+## Cara Menjalankan
+1. Pastikan Flutter SDK terinstall
+2. Clone repository ini
+3. Jalankan `flutter pub get`
+4. Jalankan `flutter run`
+
+## Rumus BMR yang Digunakan
+- **Pria**: BMR = 88.362 + (13.397 × berat dalam kg) + (4.799 × tinggi dalam cm) - (5.677 × usia dalam tahun)
+- **Wanita**: BMR = 447.593 + (9.247 × berat dalam kg) + (3.098 × tinggi dalam cm) - (4.330 × usia dalam tahun)
